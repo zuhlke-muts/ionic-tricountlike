@@ -28,6 +28,7 @@ var app = angular.module('tricountlike', ['ionic'])
         });
         $stateProvider.state('events', {
             url: '/events',
-            templateUrl: 'html/events.html'
+            templateUrl: 'html/events.html',
+            controller: 'EventsCtrl'
         });
     });

@@ -1,5 +1,9 @@
 <ion-view title="Events">
     <ion-content padding="true">
-        <p>Here you can find all the events</p>
+        <ion-list>
+            <ion-item ng-repeat="event in events" class="item item-icon-right">
+                <span>{{event.name}}</span>
+            </ion-item>
+        </ion-list>
     </ion-content>
 </ion-view>
